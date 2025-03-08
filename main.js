@@ -7,47 +7,7 @@ const headers = {
     'accept-encoding': 'gzip, deflate, br, zstd',
     'accept-language': 'en-US,en;q=0.8',
     'content-type': 'application/json',
-    'cookie': [
-    {
-        "domain": "i.cygnus.finance",
-        "expirationDate": 1744043995,
-        "hostOnly": true,
-        "httpOnly": false,
-        "name": "privy-session",
-        "path": "/",
-        "sameSite": "strict",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "t"
-    },
-    {
-        "domain": "i.cygnus.finance",
-        "expirationDate": 1741455547.795792,
-        "hostOnly": true,
-        "httpOnly": true,
-        "name": "_vcrcs",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "1.1741451950.3600.ZWNkYmM3YmQ4ODQ5ZTRkM2Y2ZTVlNTg1NTM5ODk0ZmI=.7738e4c086147067e6b72013c1e4299a"
-    },
-    {
-        "domain": "i.cygnus.finance",
-        "expirationDate": 1741455597,
-        "hostOnly": true,
-        "httpOnly": false,
-        "name": "privy-token",
-        "path": "/",
-        "sameSite": "strict",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1HT1FOYWNITnJBZ2RSdVVUOVl2NTNtU0k3Y0gxVHVBOXJ0dERZbmlkS1EifQ.eyJzaWQiOiJjbTgwZmsxNGUwMDBmZmhnNDQ1emdicmdrIiwiaXNzIjoicHJpdnkuaW8iLCJpYXQiOjE3NDE0NTE5OTcsImF1ZCI6ImNtN2Y3Y2E4bTAwM3cxMXZmdDE1Mnd6N2YiLCJzdWIiOiJkaWQ6cHJpdnk6Y204MGZrMTVuMDAwaGZoZzQ4OThxMTh1aiIsImV4cCI6MTc0MTQ1NTU5N30.zEcHm5PynP7LMU66oC-FaqIuJkhICAQacuVO86s46c0i_NXA1w3Yr_0mL11rYuT2dhaUsNXkybT03SHXooH7oA"
-    }
-], //GANTI INI
+    'cookie': _vcrcs=1.1741451950.3600.ZWNkYmM3YmQ4ODQ5ZTRkM2Y2ZTVlNTg1NTM5ODk0ZmI=.7738e4c086147067e6b72013c1e4299a; privy-session=t; privy-token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1HT1FOYWNITnJBZ2RSdVVUOVl2NTNtU0k3Y0gxVHVBOXJ0dERZbmlkS1EifQ.eyJzaWQiOiJjbTgwZmsxNGUwMDBmZmhnNDQ1emdicmdrIiwiaXNzIjoicHJpdnkuaW8iLCJpYXQiOjE3NDE0NTE5OTcsImF1ZCI6ImNtN2Y3Y2E4bTAwM3cxMXZmdDE1Mnd6N2YiLCJzdWIiOiJkaWQ6cHJpdnk6Y204MGZrMTVuMDAwaGZoZzQ4OThxMTh1aiIsImV4cCI6MTc0MTQ1NTU5N30.zEcHm5PynP7LMU66oC-FaqIuJkhICAQacuVO86s46c0i_NXA1w3Yr_0mL11rYuT2dhaUsNXkybT03SHXooH7oA; privy-id-token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1HT1FOYWNITnJBZ2RSdVVUOVl2NTNtU0k3Y0gxVHVBOXJ0dERZbmlkS1EifQ.eyJjciI6IjE3NDE0NTE5OTciLCJsaW5rZWRfYWNjb3VudHMiOiJbe1widHlwZVwiOlwiaW5zdGFncmFtX29hdXRoXCIsXCJzdWJqZWN0XCI6XCI5Nzg5NDA3MDc0NDA1NDUxXCIsXCJ1c2VybmFtZVwiOlwia2hhaXJ1bHJpemFsNjY0MVwiLFwibHZcIjoxNzQxNDUxOTk3fSx7XCJ0eXBlXCI6XCJ3YWxsZXRcIixcImFkZHJlc3NcIjpcIjB4MGE2RWJmMzcyYkQ4NzkwZjA3NDFBQTcxRDdERTdCRTIzNTM3MzUxQlwiLFwiY2hhaW5fdHlwZVwiOlwiZXRoZXJldW1cIixcIndhbGxldF9jbGllbnRfdHlwZVwiOlwicHJpdnlcIixcImx2XCI6MTc0MTQ1MjAwMH1dIiwiaXNzIjoicHJpdnkuaW8iLCJpYXQiOjE3NDE0NTI2NjcsImF1ZCI6ImNtN2Y3Y2E4bTAwM3cxMXZmdDE1Mnd6N2YiLCJzdWIiOiJkaWQ6cHJpdnk6Y204MGZrMTVuMDAwaGZoZzQ4OThxMTh1aiIsImV4cCI6MTc0MTQ1NjI2N30.LSvjtZpTbTFdZ8U2iBYil6ZT7frVCxA--cyN3fBJgj8EyqVq8v91PgMbgPG_O6dixQGlbSc9oNse5OLrUkmdkA, //GANTI INI
     'origin': 'https://i.cygnus.finance',
     'referer': 'https://i.cygnus.finance/',
     'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
